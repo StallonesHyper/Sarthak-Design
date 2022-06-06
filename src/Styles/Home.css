@@ -1,0 +1,92 @@
+.Home {
+  background-image: url("../ASSETS/AltHome.jpg");
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.HeroArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  max-width: 1240px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.AboutPara {
+  margin-right: 4rem;
+}
+
+.FacilityPara {
+  margin-left: 4rem;
+}
+
+.HeroData {
+  color: aliceblue;
+  margin: 2rem;
+}
+
+button {
+  background-color: rgb(0, 0, 0, 0);
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember", sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #f7fafa;
+  color: black;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.AboutInformation {
+  max-width: 1240px;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.BriefAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AboutImage {
+  height: 420px;
+  width: 380px;
+}
+
+.AboutButton {
+  color: black;
+}
+
+.ButtonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
